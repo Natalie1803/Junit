@@ -14,12 +14,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runners.Parameterized;
 import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
 
-@Suite.SuiteClasses({
-	CalculatorTest2.class,
-	CalculatorTest3.class
-}) 
 @RunWith(value = Parameterized.class)
 public class CalculatorTest1 extends Assert{
 	private int valueA;
